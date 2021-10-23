@@ -1,0 +1,92 @@
+/* .:: Estilo CSS ::. */
+
+body{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(3,2,51,1) 54%, rgba(5,92,110,1) 100%);
+    /* #01004e; */
+}
+
+header, section, footer{
+    background-color: #1c2331;
+}
+
+footer{
+    color: #fff;
+}
+
+.registro{
+    padding: 50px;
+    color: #fff;
+}
+
+.card, .caja{
+    background-color: #1c2331;
+    color: white;
+    border: 1px solid;
+    box-shadow: 0 1px 5px white;
+    padding: 5px;
+}
+
+.card:hover{
+    background-color: #01004e;
+}
+
+li img{
+    display: block;
+    width: 15%;
+    margin-right: auto;
+    margin-left: auto;
+    filter: invert(100%);
+}
+
+.redes img{
+    padding: 5px;
+    width: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    filter: invert(100%);
+}
+
+.redes{
+    text-align: center;
+}
+
+.derechos{
+    text-align: center;
+    padding: 5px;
+}
+
+li p{
+    text-align: center;
+}
+
+
+div h2{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.logo a img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px;
+}
+
+.caja{
+    margin:10px;
+}
+
+.product{
+    padding-bottom: 10px;
+}
+
+table, th, td{
+    border: 1px solid white;
+}
+
+.active{
+    background-color: #44445e;
+    border-radius: 5px;
+}
+
